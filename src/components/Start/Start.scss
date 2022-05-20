@@ -1,0 +1,26 @@
+.Start{
+    height: 100vh;
+    background-color:rgba(109, 109, 109, 0.537) ;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    &__button{
+        display: flex;
+        height: 20vw;
+        width: 20vw;
+        background-color:rgba(109, 109, 109, 0.898) ;
+        border-radius: 50%;
+
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover{
+            background-color:rgba(109, 109, 109, 0.709) ;
+        }
+    }
+}
+.inactiveFlag{
+    display: none;
+}
